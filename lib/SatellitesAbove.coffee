@@ -47,7 +47,7 @@ module.exports = class SatellitesAbove
 			lines = lines.splice 3
 		loaded
 
-	over: (lat, lng, altitude=0.1, minimalElevation=10) ->
+	above: (lat, lng, altitude=0.1, minimalElevation=10) ->
 		@log "[+] Finding satellites above #{lat}, #{lng}"
 		visible = []
 		for id,satellite of @satellites
