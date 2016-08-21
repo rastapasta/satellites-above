@@ -3,7 +3,7 @@
 ![dependencies](https://david-dm.org/rastapasta/satellites-above-node.svg)
 ![license](https://img.shields.io/github/license/rastapasta/satellites-above-node.svg)
 
-This node module allows you to easily gather information about the GPS satellites which are currently visible from a given location on the earth. Additional information about the satellite's relative elevation and azimuth are returned as well.
+This node module allows you to easily gather information about the GPS satellites which are currently visible from a given location on earth. Additional information about the satellites' relative elevation and azimuth are returned as well.
 
 ## How to install it?
 
@@ -61,3 +61,6 @@ $> node example.js
     azimuth: 292.8757183035666,
     elevation: 24.704872916607023 } ]
 ```
+
+## Special thanks
+* [rosh93](https://github.com/rosh93) for his work on [jspredict](https://github.com/nsat/jspredict)
