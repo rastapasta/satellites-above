@@ -9,6 +9,7 @@ module.exports = class SatellitesAbove
 	tleUrl: 'https://www.celestrak.com/NORAD/elements/supplemental/gps.txt'
 	
 	satellites: {}
+	loaded: false
 
 	constructor: (options) ->
 		@debug = options?.debug or false
@@ -24,6 +25,7 @@ module.exports = class SatellitesAbove
 			@parseSatellites file
 		.then (count) =>
 			@log "[+] Loaded #{count} GPS satellites"
+			@loaded = true
 			count
 
 	downloadTLE: ->
@@ -48,6 +50,8 @@ module.exports = class SatellitesAbove
 		loaded
 
 	above: (lat, lng, altitude=0.1, minimalElevation=10) ->
+		throw new Error ".load() hasn't been called before" unless @loaded
+		
 		@log "[+] Finding satellites above #{lat}, #{lng}"
 		visible = []
 		for id,satellite of @satellites
