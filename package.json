@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/rastapasta/satellites-node/issues"
   },
-  "homepage": "https://github.com/rastapasta/satellites-node#readme"
+  "homepage": "https://github.com/rastapasta/satellites-node#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "jspredict": "^1.0.2",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "sgp4": "^1.0.10",
+    "tle-parser": "^1.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
 }
