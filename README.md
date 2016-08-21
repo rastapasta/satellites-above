@@ -64,3 +64,4 @@ $> node example.js
 
 ## Special thanks
 * [rosh93](https://github.com/rosh93) for his work on [JsPredict](https://github.com/nsat/jspredict)
+* [Tr4sHCr4fT](https://github.com/Tr4sHCr4fT) for inspiring me with his python based [gpsinfo](https://github.com/Tr4sHCr4fT/gpsinfo) :)
