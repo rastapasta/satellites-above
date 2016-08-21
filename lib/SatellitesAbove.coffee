@@ -3,6 +3,7 @@ requestPromise = require 'request-promise'
 Promise = require 'bluebird'
 fs = require 'fs'
 fs = Promise.promisifyAll require "fs"
+path = require 'path'
 
 module.exports = class SatellitesAbove
 	debug: true
@@ -18,7 +19,7 @@ module.exports = class SatellitesAbove
 		promise = if options?.download
 			@downloadTLE()
 		else
-			fs.readFileAsync options?.file or "data/gps-ops.txt"
+			fs.readFileAsync options?.file or path.resolve __dirname, "..", "data", "gps-ops.txt"
 
 		promise
 		.then (file) =>
@@ -51,7 +52,7 @@ module.exports = class SatellitesAbove
 
 	above: (lat, lng, altitude=0.1, minimalElevation=10) ->
 		throw new Error ".load() hasn't been called before" unless @loaded
-		
+
 		@log "[+] Finding satellites above #{lat}, #{lng}"
 		visible = []
 		for id,satellite of @satellites
