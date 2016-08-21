@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rastapasta/satellites-node.git"
+    "url": "git+https://github.com/rastapasta/satellites-above-node.git"
   },
   "author": "Michael Straßburger <codepoet@cpan.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rastapasta/satellites-node/issues"
+    "url": "https://github.com/rastapasta/satellites-above-node/issues"
   },
-  "homepage": "https://github.com/rastapasta/satellites-node#readme",
+  "homepage": "https://github.com/rastapasta/satellites-above-node#readme",
   "dependencies": {
     "coffee-script": "^1.10.0",
     "jspredict": "^1.0.2",
