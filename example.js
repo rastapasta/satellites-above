@@ -4,6 +4,6 @@ satellites = new SatellitesAbove({debug: true})
 satellites
 .load({download: true})
 .then(() => {
-	satellites = satellites.above(52.520645, 13.409779);
-	console.log(satellites);
+	let sats = satellites.above(52.520645, 13.409779);
+	console.log(sats);
 });
