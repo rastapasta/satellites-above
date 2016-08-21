@@ -1,4 +1,4 @@
-let SatellitesAbove = require('./index');
+const SatellitesAbove = require('./index');
 
 satellites = new SatellitesAbove({debug: true})
 satellites

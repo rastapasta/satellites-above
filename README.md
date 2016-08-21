@@ -14,7 +14,7 @@ npm install --save satellites-above
 ## How to use it?
 
 ```javascript
-let SatellitesAbove = require('satellites-above');
+const SatellitesAbove = require('satellites-above');
 
 satellites = new SatellitesAbove();
 satellites
