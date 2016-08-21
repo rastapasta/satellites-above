@@ -1,12 +1,22 @@
-# satellites-above-node
-📡 GPS satellite tracker - which GPS satellites are visible above a given location right now?
+# satellites-above
+[![npm version](https://badge.fury.io/js/satellites-above.svg)](https://badge.fury.io/js/satellites-above)
+![dependencies](https://david-dm.org/rastapasta/satellites-above-node.svg)
+![license](https://img.shields.io/github/license/rastapasta/satellites-above-node.svg)
+
+This node module allows you to easily gather information about the GPS satellites which are currently visible from a given location on the earth. Additional information about the satellite's relative elevation and azimuth are returned as well.
+
+## How to install it?
+
+```bash
+npm install --save satellites-above
+```
 
 ## How to use it?
 
 ```javascript
-let SatellitesAbove = require 'satellites-above'
+let SatellitesAbove = require('satellites-above');
 
-satellites = new SatellitesAbove({debug: true})
+satellites = new SatellitesAbove({debug: true});
 satellites
 .load({download: true})
 .then(() => {
