@@ -4,7 +4,7 @@
 ## How to use it?
 
 ```javascript
-let SatellitesAbove = require 'satelites-above'
+let SatellitesAbove = require 'satellites-above'
 
 satellites = new SatellitesAbove({debug: true})
 satellites
