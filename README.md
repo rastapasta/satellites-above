@@ -16,7 +16,7 @@ npm install --save satellites-above
 ```javascript
 const SatellitesAbove = require('satellites-above');
 
-satellites = new SatellitesAbove();
+let satellites = new SatellitesAbove();
 satellites
 .load({download: true})
 .then(() => {

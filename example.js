@@ -1,6 +1,7 @@
 const SatellitesAbove = require('./index');
 
-satellites = new SatellitesAbove({debug: true})
+let satellites = new SatellitesAbove({debug: true})
+
 satellites
 .load({download: true})
 .then(() => {
