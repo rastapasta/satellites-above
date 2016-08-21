@@ -1,5 +1,5 @@
 # satellites-above
-![travis](https://travis-ci.org/rastapasta/satellites-above-node.svg)
+[![travis](https://travis-ci.org/rastapasta/satellites-above-node.svg)](https://travis-ci.org/rastapasta/satellites-above-node)
 [![npm version](https://badge.fury.io/js/satellites-above.svg)](https://badge.fury.io/js/satellites-above)
 ![dependencies](https://david-dm.org/rastapasta/satellites-above-node.svg)
 ![license](https://img.shields.io/github/license/rastapasta/satellites-above-node.svg)
