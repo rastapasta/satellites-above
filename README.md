@@ -1,6 +1,6 @@
 # satellites-above
 [![travis](https://travis-ci.org/rastapasta/satellites-above-node.svg)](https://travis-ci.org/rastapasta/satellites-above-node)
-[![npm version](https://badge.fury.io/js/satellites-above.svg)](https://badge.fury.io/js/satellites-above)
+[![npm version](https://badge.fury.io/js/satellites-above.svg)](https://badge.fury.io/js/satellites-above) [![Greenkeeper badge](https://badges.greenkeeper.io/rastapasta/satellites-above.svg)](https://greenkeeper.io/)
 ![dependencies](https://david-dm.org/rastapasta/satellites-above-node.svg)
 ![license](https://img.shields.io/github/license/rastapasta/satellites-above-node.svg)
 
